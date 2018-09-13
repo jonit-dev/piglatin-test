@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+
+
+
+</head>
+<body>
+
+<h1>Pig Latin Translator</h1>
+
+<form action="{% url 'translate' %}">
+    <input type="text" name="keywords" id="keywords" placeholder="I like cheese =0">
+    <input type="submit" value="Translate">
+
+</form>
+
+<hr>
+<br>
+
+<a href="{% url 'about' %}">About this shit</a>
+
+
+</body>
+</html>
